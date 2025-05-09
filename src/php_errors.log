@@ -1,0 +1,7 @@
+[09-May-2025 09:26:45 UTC] PHP Deprecated:  Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead in D:\Task Scheduler\src\test_error.php on line 1
+[09-May-2025 09:26:45 UTC] PHP Fatal error:  This is a test error in D:\Task Scheduler\src\test_error.php on line 1
+[09-May-2025 12:48:29 UTC] PHP Warning:  require_once(src/functions.php): Failed to open stream: No such file or directory in D:\Task Scheduler\src\index.php on line 3
+[09-May-2025 12:48:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/functions.php' (include_path='.;C:\php\pear') in D:\Task Scheduler\src\index.php:3
+Stack trace:
+#0 {main}
+  thrown in D:\Task Scheduler\src\index.php on line 3
