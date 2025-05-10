@@ -1,5 +1,1 @@
-<?php
-require_once 'functions.php';
-
-// Send task reminders to all subscribers.
-sendTaskReminders();
+<?php require_once "functions.php"; sendTaskReminders(); echo "CRON job executed successfully.\n"; ?>
