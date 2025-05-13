@@ -50,7 +50,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 $tasks = getAllTasks();
 $subscribers = readFileToArray(SUBSCRIBERS_FILE);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
