@@ -159,7 +159,6 @@ $subscribers = readFileToArray(SUBSCRIBERS_FILE);
             <input type="email" name="email" placeholder="Enter email" required>
             <button type="submit" name="subscribe">Subscribe</button>
         </form>
-
         <h2>Tasks</h2>
         <ul>
             <?php foreach ($tasks as $task): ?>
