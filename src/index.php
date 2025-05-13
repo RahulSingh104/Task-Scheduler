@@ -180,7 +180,6 @@ $subscribers = readFileToArray(SUBSCRIBERS_FILE);
                 </li>
             <?php endforeach; ?>
         </ul>
-
         <h2>Subscribers</h2>
         <ul>
             <?php foreach ($subscribers as $subscriber): ?>
